@@ -1,11 +1,11 @@
-"use client";
+import Counter from "@/components/Counter";
 
-const InfoPage = () => {
-  console.log("Hello");
+const infoPage = () => {
+  console.log("infoPage");
   return (
     <div>
-      <h1>Info Page</h1>
+      <Counter />
     </div>
   );
 };
-export default InfoPage;
+export default infoPage;
