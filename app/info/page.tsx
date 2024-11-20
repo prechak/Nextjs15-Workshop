@@ -1,4 +1,11 @@
+"use client";
+
 const InfoPage = () => {
-  return <div>Info Page</div>;
+  console.log("Hello");
+  return (
+    <div>
+      <h1>Info Page</h1>
+    </div>
+  );
 };
 export default InfoPage;
